@@ -24,7 +24,7 @@ class StationTest {
 
         val collectionSummary = "Station Name : Central\n" +
                 "Total Fare Collected : 450\n" +
-                "Total Convinience Fee Collected : 4.0\n" +
+                "Total Convenience Fee Collected : 4.0\n" +
                 "Total Discount Given : 150"
         assertEquals(collectionSummary, stationCentral.getCollectionSummary());
     }
@@ -57,7 +57,7 @@ class StationTest {
 
         val collectionSummary = "Station Name : Airport\n" +
                 "Total Fare Collected : 0\n" +
-                "Total Convinience Fee Collected : 0.0\n" +
+                "Total Convenience Fee Collected : 0.0\n" +
                 "Total Discount Given : 0"
         assertEquals(collectionSummary, stationAirport.getCollectionSummary());
     }

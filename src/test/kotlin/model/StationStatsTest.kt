@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 
 class StationStatsTest {
 
-    lateinit var stats: StationStats
+    private lateinit var stats: StationStats
 
     @Before
     fun setUp() {
